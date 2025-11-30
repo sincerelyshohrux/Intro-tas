@@ -1,0 +1,17 @@
+Pseudocode for Finding All Factors of a Positive Integer
+
+Algorithm: FindFactors
+Input: n (a positive integer)
+Output: list of all factors of n
+
+BEGIN
+    Initialize empty list called factors
+    
+    FOR i FROM 1 TO n DO
+        IF n MOD i == 0 THEN
+            Add i to factors list
+        END IF
+    END FOR
+    
+    RETURN factors
+END
